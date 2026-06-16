@@ -14,7 +14,7 @@ This project focuses on solving inventory management challenges in a supply chai
 
 # Architecture
 Email (Order Data) → n8n (Automation) → PostgreSQL on Supabase → Quadratic AI (Analysis)
-<img src="Supply-Chain_Analytics-ai/Screenshots/n8n Workflow.png" width="800">
+<img src="Supply-Chain-Analytics-ai/Screenshots/n8n Workflow.png" width="800">
 
 # What This Project Does
 - Automatically picks up incoming order data from emails using n8n workflows.
