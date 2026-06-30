@@ -14,10 +14,10 @@ This project focuses on solving inventory management challenges in a supply chai
 
 Spreadsheet (via Email) → n8n (automation) → PostgreSQL (hosted on Supabase) → Quadratic (AI-powered analysis)
 
-n8n → Automated ingestion of incoming order data from emails into PostgreSQL.
-Supabase → Cloud-hosted PostgreSQL database.
-Quadratic → Pulled data from PostgreSQL, performed analysis, and generated KPIs & insights.
-Validation → Quadratic output cross-verified with Supabase data.
+*n8n → Automated ingestion of incoming order data from emails into PostgreSQL.
+*Supabase → Cloud-hosted PostgreSQL database.
+*Quadratic → Pulled data from PostgreSQL, performed analysis, and generated KPIs & insights.
+*Validation → Quadratic output cross-verified with Supabase data.
 
 # Architecture
 Email (Order Data) → n8n (Automation) → PostgreSQL on Supabase → Quadratic AI (Analysis)
